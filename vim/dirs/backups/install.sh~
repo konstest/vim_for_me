@@ -1,9 +1,0 @@
-#!/bin/bash
-
-apt-get update && apt-get install -y vim
-cp vimrc /etc/vim/vimrc
-ls /home | while read username; do
-    cp -r vim /home/$username/
-    chown -R $username /home/$username/.vim
-    su -l teamcity -c 'vim +PluginInstall +qall'
-done
