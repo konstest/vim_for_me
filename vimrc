@@ -28,6 +28,8 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+Plugin 'lepture/vim-jinja'
+
 " let Vundle manage Plugins
 Plugin 'gmarik/vundle'
 
