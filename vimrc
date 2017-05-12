@@ -29,6 +29,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Plugin 'lepture/vim-jinja'
+au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm,*.sls set ft=jinja
 
 " let Vundle manage Plugins
 Plugin 'gmarik/vundle'
