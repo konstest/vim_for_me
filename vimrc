@@ -108,22 +108,22 @@ Plugin 'lilydjwg/colorizer'
 " javascript complete after install the plugin, you must cd the install
 " directory and run `npm install`, then add a .tern-project config file
 " the doc at http://ternjs.net/doc/manual.html#vim
-Plugin 'marijnh/tern_for_vim'
+" Plugin 'marijnh/tern_for_vim'
 " Golang Plugins
-Plugin 'fatih/vim-go'
+" Plugin 'fatih/vim-go'
 " JSX syntax highlight.
-Plugin 'mxw/vim-jsx'
+" Plugin 'mxw/vim-jsx'
 " Markdown syntastic highlight
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
+" Plugin 'godlygeek/tabular'
+" Plugin 'plasticboy/vim-markdown'
 " Markdown realtime preview
 " Before you want to use it, please run
 " `sudo npm -g install instant-markdown-d`
-Plugin 'suan/vim-instant-markdown'
+" Plugin 'suan/vim-instant-markdown'
 " Handlebars syntax highlighting
-Plugin 'mustache/vim-mustache-handlebars'
+" Plugin 'mustache/vim-mustache-handlebars'
 " Vue.js syntax and highlighting
-Plugin 'tao12345666333/vim-vue'
+" Plugin 'tao12345666333/vim-vue'
 " True Sublime Text style multiple selections for Vim
 Plugin 'terryma/vim-multiple-cursors'
 
